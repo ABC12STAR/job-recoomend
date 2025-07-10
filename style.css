@@ -1,0 +1,80 @@
+/* 기본 설정 */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #f3f9ff, #dfefff);
+  color: #333;
+  padding: 40px;
+  margin: 0;
+}
+
+/* 전체 박스 */
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* 제목 */
+h2 {
+  color: #2c3e50;
+  margin-top: 20px;
+}
+
+/* 체크박스 라벨 */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+/* 셀렉트 & 버튼 */
+select, button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* 버튼 스타일 */
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* 결과 박스 */
+#result {
+  margin-top: 30px;
+}
+
+/* 추천 카드 스타일 */
+.result-card {
+  background-color: #f8faff;
+  border-left: 6px solid #3498db;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.result-card h3 {
+  margin: 0 0 8px;
+  color: #2c3e50;
+}
+
+.result-card p {
+  margin: 4px 0;
+  color: #555;
+}
